@@ -2,3 +2,6 @@
 .gradle
 .idea
 application-oauth.properties
+out/
+settings.gradle
+src/test/resources/

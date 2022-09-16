@@ -2,7 +2,7 @@
 .gradle
 .idea
 
-application-oauth.properties
-out/
-settings.gradle
-src/test/resources/
+application-real-oauth.properties
+
+build
+out

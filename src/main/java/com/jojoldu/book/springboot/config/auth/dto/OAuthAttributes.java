@@ -30,10 +30,10 @@ public class OAuthAttributes {
             return ofNaver("id", attributes);
         }
 
-        return ofGoole(userNameAttributeName, attributes);
+        return ofGoogle(userNameAttributeName, attributes);
     }
 
-    private static OAuthAttributes ofGoole(String userNameAttributeName, Map<String, Object> attributes) {
+    private static OAuthAttributes ofGoogle(String userNameAttributeName, Map<String, Object> attributes) {
         return OAuthAttributes.builder()
                 .name((String) attributes.get("name"))
                 .email((String) attributes.get("email"))
